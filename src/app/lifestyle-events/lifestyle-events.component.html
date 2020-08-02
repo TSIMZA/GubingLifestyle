@@ -1,0 +1,19 @@
+<app-base-container></app-base-container>
+<div class="eventContainer" *ngFor="let evt of events ">
+  <div class="row eventContainer"  [style.background-color]="evt.backgroundColor">
+    <div class="col-sm">
+      <img src="..\..\assets/events/{{evt.imageName}}" class="img-fluid evenImage" alt="{{evt.imageName}}">
+    </div>
+    <div class="col-sm eventDetailContainer">
+      <h2>{{evt.eventNameFirstPart}} <br><span class="orange-hit">{{evt.eventNameSecondPart}}</span></h2>
+      <div class="heading-sep"></div>
+
+      <div class="service-text">
+        {{evt.eventDescription}}
+      </div>
+
+      <!-- <div class="service-sep"><span></span></div> -->
+
+    </div>
+  </div>
+</div>

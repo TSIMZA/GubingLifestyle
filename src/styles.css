@@ -1,0 +1,112 @@
+/* You can add global styles to this file, and also import other style files */
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  /* background: #2a2a2a; */
+  font-family: "museo-sans", sans-serif;
+  font-weight: 300;
+  color: #757575;
+  line-height: 28px;
+  font-size: 20px; }
+
+@media (max-width: 1150px) {
+    body {
+      font-size: 18px;
+      line-height: 24px; } }
+@media (max-width: 767px) {
+    body {
+      font-size: 14px;
+      line-height: 20px; } }
+/*
+.container {
+  margin: auto;
+  width: 1200px;
+  position: relative; }
+  @media (max-width: 1300px) {
+    .container {
+      width: 1100px; } }
+  @media (max-width: 1150px) {
+    .container {
+      width: 900px; } }
+  @media (max-width: 960px) {
+    .container {
+      width: 700px; } }
+  @media (max-width: 767px) {
+    .container {
+      width: 85%; } } */
+
+img {
+  max-width: 100%; }
+
+
+h1, h2, h3 {
+  font-family: "museo-sans", sans-serif;
+  padding: 0px;
+  margin: 0px;
+  font-weight: 700;
+  letter-spacing: -2px; }
+
+h2 {
+  font-size: 80px;
+  line-height: 80px; }
+  @media (max-width: 1300px) {
+    h2 {
+      font-size: 70px;
+      line-height: 70px; } }
+  @media (max-width: 1150px) {
+    h2 {
+      font-size: 60px;
+      line-height: 60px; } }
+  @media (max-width: 767px) {
+    h2 {
+      font-size: 40px;
+      line-height: 40px; } }
+
+span.sub-text {
+  font-size: 20px;
+  line-height: 20px;
+  display: block;
+  font-weight: 300;
+  letter-spacing: 4px;
+  margin-bottom: 10px; }
+
+span.red-hit {
+  color: #e1382d; }
+
+  span.orange-hit {
+    color: rgb(255, 136, 0); }
+
+
+  .heading-sep {
+  width: 25px;
+  height: 2px;
+  background:rgb(255, 136, 0);
+  margin: 30px 0px;
+  margin-bottom: 40px; }
+
+  .service-sep {
+    height: 1px;
+    background: #bbbbbb;
+    position: relative;
+    margin: 50px 0px; }
+
+  .service-sep span {
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      border-radius: 10px;
+      display: block;
+      width: 10px;
+      height: 10px;
+      position: absolute;
+      left: 0px;
+      top: -7px;
+      border: 2px solid #bbbbbb;
+      background: #e2e2e2; }

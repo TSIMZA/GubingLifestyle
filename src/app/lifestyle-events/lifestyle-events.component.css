@@ -1,0 +1,47 @@
+.eventContainer {
+  /* height: 100%; */
+  width: 100%;
+  max-height: 700px;
+}
+
+.eventDetailContainer {
+  padding: 6%;
+}
+
+.evenImage {
+  padding-top: 10%;
+}
+
+@media (max-width: 1400px) {
+  .eventDetailContainer {
+    padding-left: 4%;
+    padding-top: 4%;
+  }
+
+.evenImage {
+  padding-top: 20%;
+}
+}
+
+
+@media (max-width: 1150px) {
+  .eventDetailContainer {
+    padding-left: 4%;
+    padding-top: 4%;
+  }
+
+  .evenImage {
+    padding-top: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  .eventDetailContainer {
+    padding-left: 10%;
+    padding-top: 10%;
+  }
+
+  .evenImage {
+    padding-top: 15%;
+  }
+}
